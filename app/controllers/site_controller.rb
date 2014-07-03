@@ -10,5 +10,10 @@ class SiteController < ApplicationController
   def terms
   end
 
+  def meal_plans
+  end
+
+  def create_account
+  end
 end
 
