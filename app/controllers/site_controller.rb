@@ -15,5 +15,8 @@ class SiteController < ApplicationController
 
   def create_account
   end
+
+  def login
+  end
 end
 

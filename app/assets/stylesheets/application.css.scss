@@ -6,8 +6,12 @@
 @import "bootstrap";
 
 body {
+  text-align: center;
+  background: url("foodwallpaper.jpg");
   padding-top: 50px;
 }
+
+
 .noty-test{
   font-size:18px;
   font-weight: normal;
@@ -22,11 +26,36 @@ body {
   }
 
 }
+p {
+  color: #FDD017;
+  font-size: 24px;
+  text-align: center;
+}
+
 
 input {
   text-align: left
 }
 
 h1 {
+  color: #FFFFFF;
   text-align: center;
 }
+
+title{
+ color: #F62217
+
+}
+
+h2{
+  color: #493D26
+}
+
+input{
+  color: #FF0000
+}
+
+form{
+  color: #FFFFFF
+}
+
