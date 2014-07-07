@@ -18,5 +18,14 @@ class SiteController < ApplicationController
 
   def login
   end
+
+  def Mothers_meals
+  end
+
+  def Lifestyle_plan
+  end
+
+  def Athletes_Plan
+  end
 end
 
