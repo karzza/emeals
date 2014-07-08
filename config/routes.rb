@@ -15,5 +15,6 @@ Rails.application.routes.draw do
   # routes for URL
   post 'url'  =>'url#create'
   get  'url'  =>'url#index'
+
 end
 
