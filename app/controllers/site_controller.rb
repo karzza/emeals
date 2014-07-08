@@ -16,9 +16,6 @@ class SiteController < ApplicationController
   def create_account
   end
 
-  def login
-  end
-
   def Mothers_meals
   end
 
