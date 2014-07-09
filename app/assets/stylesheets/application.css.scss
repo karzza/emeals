@@ -72,6 +72,23 @@ a{
  color: #FFFFFF;
 }
 
+.meal_plan {
+  clear: both;
+
+  li {
+    clear: both;
+  }
+
+  .text {
+    color: white;
+    float: left;
+    width: 400px;
+  }
+  .image {
+    float: left;
+  }
+}
+
 
 
 
