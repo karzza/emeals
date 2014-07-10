@@ -13,7 +13,7 @@ class SiteController < ApplicationController
   def meal_plans
   end
 
-  def create_account
+  def Contact_form
   end
 
   def Mothers_meals

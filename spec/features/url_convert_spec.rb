@@ -3,15 +3,6 @@ require 'rails_helper'
 feature 'convert the url' do
 
 
-  scenario 'login, create account, home, choose plan' do
-    visit '/'
-    expect(find('#loginForm')).to have_button('login')
-  end
-
-  scenario 'login, create account, home, choose plan' do
-    visit '/'
-    expect(find('#createAccountForm')).to have_button('create account')
-  end
 
   scenario 'login, create account, home, choose plan' do
     visit '/'

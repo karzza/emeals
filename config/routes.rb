@@ -1,20 +1,24 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, :controllers=> {registration:'registration'}
   root 'site#index'
 
   get 'privacy' => 'site#privacy'
   get 'terms'   =>  'site#terms'
-  get 'create_account' =>'site#create_account'
   get 'meal_plans'=> 'site#meal_plans'
-  get 'login' => 'site#login'
+  get 'login'=> "site#Login"
   get 'Mothers_meals' => 'site#Mothers_meals'
   get 'Lifestyle_plan'=> 'site#Lifestyle_plan'
   get 'Athletes_Plan'=> 'site#Athletes_Plan'
+  get 'sign_up'=> 'site#sign_up'
+  get 'sign_in'=> 'site#sign_in'
+  get 'contact_form' =>'site#Contact_form'
 
 
   # routes for URL
   post 'url'  =>'url#create'
   get  'url'  =>'url#index'
+  get 'sign_up'=> 'site#sign_up'
+  get 'sign_in'=> 'site#sign_in'
 
 end
 
