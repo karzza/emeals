@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get 'sign_up'=> 'site#sign_up'
   get 'sign_in'=> 'site#sign_in'
   get 'contact_form' =>'site#Contact_form'
+  get 'contact_us'=> 'site#Contact_us'
+  post 'contact' => 'contacts#create'
 
 
   # routes for URL

@@ -24,5 +24,8 @@ class SiteController < ApplicationController
 
   def Athletes_Plan
   end
+
+  def Contact_Us
+  end
 end
 
