@@ -1,22 +1,12 @@
 class SiteController < ApplicationController
 
   def index
-
-  end
-
-  def privacy
-  end
-
-  def terms
   end
 
   def meal_plans
   end
 
-  def Contact_form
-  end
-
-  def Mothers_meals
+  def mothers_plan
   end
 
   def Lifestyle_plan
@@ -27,5 +17,13 @@ class SiteController < ApplicationController
 
   def Contact_Us
   end
+
+  def sign_up
+  end
+
+  def sign_in
+  end
+
+
 end
 

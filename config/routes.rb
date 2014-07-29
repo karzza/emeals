@@ -6,14 +6,16 @@ Rails.application.routes.draw do
   get 'terms'   =>  'site#terms'
   get 'meal_plans'=> 'site#meal_plans'
   get 'login'=> "site#Login"
-  get 'Mothers_meals' => 'site#Mothers_meals'
-  get 'Lifestyle_plan'=> 'site#Lifestyle_plan'
-  get 'Athletes_Plan'=> 'site#Athletes_Plan'
+  get 'mothers_plan' => 'site#mothers_plan'
+  get 'lifestyle_plan'=> 'site#lifestyle_plan'
+  get 'athletes_Plan'=> 'site#athletes_Plan'
   get 'sign_up'=> 'site#sign_up'
   get 'sign_in'=> 'site#sign_in'
-  get 'contact_form' =>'site#Contact_form'
   get 'contact_us'=> 'site#Contact_us'
   post 'contact' => 'contacts#create'
+  # post 'like' => 'Recipes#like'
+
+
 
 
   # routes for URL
