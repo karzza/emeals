@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'noty-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem "figaro"
 gem 'devise'
 gem 'spring',        group: :development
 
